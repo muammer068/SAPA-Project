@@ -51,6 +51,29 @@ We developed two different circuits. Both of the circuits are supplied by 9V dir
 # Schematic Design Of Respiratory Circuit
 ![image](https://github.com/muammer068/SAPA-Project/assets/157306706/43aa0406-3eec-466a-83e4-68b8dd36798a)
 
+# Software | Setup & Capabilities
+The software has been developed by using MATLAB's App Designer
+
+# Monitoring and Processing Signals with the Help of Matlab and GUI Interface
+This section gives information about the operations performed on Matlab and the GUI interface of sounds converted to digital signals with Arduino.
+
+![image](https://github.com/muammer068/SAPA-Project/assets/157306706/4394ba9f-818c-49b8-be19-d4727e91d785)
+
+Here are some capabilities of the interface;
+1.	Allows the interface to be turned on/off
+2.	Allows easy selection of the COM to which Aurdino is connected.
+3.	It allows the processed data to be saved.
+4.	It allows the recorded data to be printed to the desired location on the computer.
+5.	The organ to be examined is selected.
+6.	It allows the low pass frequency of the digital filter to be adjusted for the heart.
+7.	Allows the low pass and high pass frequencies of the digital filter to be adjusted for the lung.
+8.	Tells how many times the organ beats during the monitored period
+9.	Shows the sound data coming from the organ.
+10.	It shows the sound data coming from the organ after applying the digital filter.
+11.	Shows the FFT version of the original signal.
+12.	Shows the FFT version of the digitally filtered signal. 
+
+
 
 
 
